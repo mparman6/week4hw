@@ -1,0 +1,29 @@
+#cool-pic {
+  margin-top: 40px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#heading {
+  font-size: 50px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#input {
+  transform: scale(1.5);
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
+.stroked { 
+  text-decoration: line-through; 
+}
+
+#listhead {
+  text-align: center;
+  font-color: E39E8;
+  font-family: helvetica;
+  background-color: CFDDE6;
+}
+
