@@ -10,10 +10,11 @@
   vertical-align: center;
 }
 
-#input {
+.x {
   transform: scale(1.5);
   margin-top: 18px;
-  margin-left: 18px;
+  margin-left: 25px;
+  padding-left: 20px;
 }
 
 .stroked { 
@@ -27,3 +28,10 @@
   background-color: CFDDE6;
 }
 
+.btn {
+  margin-right: 20px;
+}
+
+td {
+  padding-top: 20px;
+}

@@ -22,7 +22,7 @@ $(document).ready(function() {
     var wordTd = $("<td>").addClass("word-td").append(newWord);
     var deleteBtn = $("<button>").addClass("btn btn-danger").append("Delete");
     var deleteTd = $("<td>").append(deleteBtn);
-    var checkBox = $("<input type='checkbox' id='input'>");
+    var checkBox = $("<input type='checkbox' class='x'>");
     deleteTd.append(checkBox);
 
     newRow.append(wordTd).append(deleteTd);
@@ -42,9 +42,10 @@ $(document).ready(function() {
     $(".alert-danger").fadeOut(1500);
   });
 
-  $("#input").on("click", function() {
-    var check = $(this).parent();
-    $(check).toggleClass("stroked");
+  $(document).on("click", ".x", function() {
+    console.log("test")
+    var check = $(this).parent().parent();
+    $(check).attr("class", "stroked");
   });
 
 });
